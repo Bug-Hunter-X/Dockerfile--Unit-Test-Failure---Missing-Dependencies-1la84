@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error: neglecting to install dependencies required for running unit tests.  The `bug.Dockerfile` shows the faulty Dockerfile, omitting the installation of test dependencies.  The `solution.Dockerfile` provides a corrected version that includes the `pip install -r requirements.txt` command.
